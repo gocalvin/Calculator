@@ -15,7 +15,7 @@ public class CalculatorTests {
 	@Test
 	public void testSubtraction() {
 	
-		assertEquals("Subtraction output incorrect",-1, CreateCalculator.subtract(2, 3));
+		assertEquals("Subtraction output incorrect",4, CreateCalculator.subtract(2, 3));
 		System.out.println("Trying to commit to branch");
 	}
 }
