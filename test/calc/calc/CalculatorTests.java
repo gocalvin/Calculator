@@ -15,6 +15,6 @@ public class CalculatorTests {
 	@Test
 	public void testSubtraction() {
 	
-		assertEquals("Subtraction output incorrect",1, CreateCalculator.subtract(2, 3));
+		assertEquals("Subtraction output incorrect",-1, CreateCalculator.subtract(2, 3));
 	}
 }
